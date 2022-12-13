@@ -8,7 +8,7 @@ Description:
 
 Usage:
 
-    perl cif_cov_stat.pl <list> <ref> <AA> <out> <out2> <out3>
+    perl cif_cov_stat.pl <list> <ref> <AA> <stat_file> <all_file> <pass_file>
     
 Options:
 
