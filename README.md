@@ -16,3 +16,10 @@ Options:
 	help		print this help information
 e.g
 	perl cif_cov_stat.pl -L list -R P0DTC2.ref.fasta -A AA.ref.txt -S stat.xls -F all_file.xls -P pass_file.xls
+
+# Introduction
+cif_cov_stat.pl is a perl program used to statistics Spike protein. 
+	
+The statistics file(stat.xls) is filtered by the following two conditions :
+	1.The coverage of at least 3 chain in each file exceeds 800 Amino acids；
+	2.Filter out the file with more than 300 Amino acids inconsistent.
