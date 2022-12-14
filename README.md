@@ -42,6 +42,6 @@ The statistics file(stat.xls) is filtered by the following two conditions :
 
 pass_file.xls is the file after filtered by the following two conditions.
 
-all_file.xls if the file of all ID and chain.
+all_file.xls is the file of all ID and chains.
 
 
