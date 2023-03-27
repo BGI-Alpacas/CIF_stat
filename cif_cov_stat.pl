@@ -190,7 +190,7 @@ foreach my $name (@all_name2)
 			}
 		}
 	}
-#foreach my $cc (sort {$a <=> $b} keys %count)
+
 open OUT2,">$out2";
 open OUT3,">$out3";
 for (my $i=0;$i<=$#tmp;$i++)
@@ -204,7 +204,6 @@ print OUT "\ntotal\t";
 print OUT2 "\n";
 print OUT3 "\n";
 
-#foreach my $cc (sort {$a <=> $b} keys %count)
 for (my $i=0;$i<=$#tmp;$i++)
 	{
 	my $n = $i+1;
@@ -225,7 +224,6 @@ my @uniq1 = grep {++$ha1{$_} < 2} @TP;
 foreach my $tt  (@uniq1)
 	{
 	print OUT "$tt\t";
-	#foreach my $cc (sort {$a <=> $b} keys %count)
 	for (my $i=0;$i<=$#tmp;$i++)
 		{
 		my $n = $i+1;
